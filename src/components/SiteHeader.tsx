@@ -95,7 +95,7 @@ export default function SiteHeader() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
               transition={{ type: "spring", damping: 25, stiffness: 300 }}
-              className="glass-card-white mx-3 mt-2 rounded-xl p-5 md:hidden"
+              className="mx-3 mt-2 rounded-xl p-5 md:hidden bg-background/80 backdrop-blur-2xl border border-white/10"
             >
               <nav className="flex flex-col gap-1">
                 {navLinks.map((l, i) => (
